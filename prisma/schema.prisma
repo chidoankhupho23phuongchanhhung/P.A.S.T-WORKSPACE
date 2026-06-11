@@ -11,8 +11,8 @@ generator client {
 
 datasource db {
   provider  = "postgresql"
-  url       = env("DATABASE_URL")       // ⚠️ KHÔNG hardcode — dùng .env
-  directUrl = env("DIRECT_DATABASE_URL") // Cho Prisma migrate trực tiếp
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
 }
 
 // ────────────────────────────────────────────────────────────
