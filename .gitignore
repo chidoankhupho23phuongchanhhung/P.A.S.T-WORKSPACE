@@ -1,0 +1,49 @@
+# ─── Environment & Secrets ───────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+.secret
+
+# ─── Supabase local ──────────────────────────────────────────
+supabase/.env
+supabase/config.toml.local
+
+# ─── Node / Package managers ─────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.cjs
+.pnp.loader.mjs
+
+# ─── Build outputs ───────────────────────────────────────────
+dist/
+build/
+.next/
+.nuxt/
+.output/
+out/
+
+# ─── IDE & OS ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.idea/
+
+# ─── Logs ────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── TruffleHog cache ────────────────────────────────────────
+.trufflehog/
